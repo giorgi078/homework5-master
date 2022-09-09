@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+header{
+    padding: 30px;
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    /* opacity: 0.5; */
+    z-index: 1;
+}
+
+header  li a{
+    padding: 5px 10px;
+    font-size: 18px;
+    color: rgb(253, 253, 253);
+    float: left;
+    position: relative;
+}
+header h1 img{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: -10px 70px;
+}
+header li a::before{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 1s;
+}
+header li a:hover:before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.ap{
+    margin-left: 138px;
+}
+.apos::after{
+    content: "'s hits";
+}
+.social{
+    width: 50px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    top: 170px;
+    cursor: pointer;
+}
+.social .facebook{
+    width: 100%;
+    height: 50%;
+    background-image: url(../img/facebook.png);
+    background-size: 100%;
+}
+.social .instagram{
+    width: 100%;
+    height: 50%;
+    background-image: url(../img/instagram.png);
+    background-size: 100%;
+}
+.facebook img, .instagram img{
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+.facebook:hover{
+    background-image: url(../img/fb.png);
+    background-size: 100%;
+}
+.instagram:hover{
+    background-image: url(../img/inst.png);
+    background-size: 100%;
+}
+.cont{
+    width: 90%;
+    height: 300px;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.cont2{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.box{
+    width: 300px;
+    height: 270px;
+    border: 1px solid #000000;
+    float: left;
+    padding-left: 12px;
+    position: relative;
+}
+.sawyisi{
+    width: 500px;
+    height: 50px;
+    font-size: 26px;
+    color: #000000;
+    margin: 145px 110px 0px ;
+    font-weight: 700;
+
+}
+.sawyisi::after{
+    content: "'s hits";
+}
+.dzlivs{
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    color: #000000;
+    /* background-color: aqua; */
+    margin-top: 180px;
+}
+.artisti::after{
+    content: "...";
+}
+.artisti{
+    font-size: 14px;
+    font-weight: 400;
+}
+.dg{
+    display:block;
+    width: 350px;
+    height: 30px;
+    color: #000000;
+    float: left;
+    /* background-color: yellow; */
+}
+.dg2{
+    padding-left: 88px;
+    /* background-color: blue; */
+}
+.dg3{
+    padding-left: 176px;
+    /* background-color: green; */
+}
+.meore{
+    width: 200px;
+    height: 30px;
+    font-size: 26px;
+    color: #000000;
+    /* background-color: rgb(170, 42, 42); */
+    font-weight: 700;
+    margin-left: 110px;
+}
+
+.heart{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/like.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+}
+.heart:hover{
+    background-image: url(../img/like\ l.png);
+}
+.heart img{
+    width: 100%;
+    height: 100%;
+}
+
+.box2{
+    margin-left: 138px;
+}
+.box3{
+    margin-left: 138px;
+}
+.teko{
+    width: 25%;
+    height: 90px;
+    margin-top: 90px;
+    float: left;
+    background-image: url(..//img/sound.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.boxes{
+    width: 280px;
+    height: 360px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin: 145px 1px 46px 110px;
+    /* background-color: blue; */
+    float: left;
+}
+.boxes:hover{
+    background-color: rgb(189, 185, 185);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.list::after{
+    content: "- Song Name    03:54";
+}
+.name{
+    margin-bottom: 50px;
+}
+.list{
+    font-size: 18px;
+    color: #000000;
+}
+.wyali{
+    width: 260px;
+    height: 130px;
+    margin: 0 auto;
+    clear: both;
+}
+.sound{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.wyali .sound{
+    background-image: url(../img/sound.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.mart{
+    width: 90%;
+    height: 360px;
+    margin: 50px 88px 140px 100px;
+}
+.dashoreba{
+    width: 25%;
+    height: 100%;
+    padding-left: 30px;
+    padding-top: 5px;
+    float: left;
+}
+.dashoreba:hover{
+    background-color: rgb(189, 185, 185);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.morcha{
+    text-align: center;
+    color: #000000;
+    font-size: 26px;
+    margin-bottom: 145px;
+}
+footer{
+    width: 100%;
+    height: 354px;
+    background-color: #000000;
+    padding: 25px;
+    clear: both;
+    /* opacity: 0.5; */
+}
+.foot{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.foot img{
+    width: 100%;
+    height: 100%;
+}
+.vai{
+    width: 90px;
+    height: 62px;
+    margin: 0 auto;
+}
+.iqneb li a{
+    color: #ffffff;
+}
+.bolo{
+    display: block;
+    width: 144px;
+    color: #ffffff;
+    margin: 70px auto 0;
+    font-size: 18px;
+}
